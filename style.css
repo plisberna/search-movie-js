@@ -1,0 +1,84 @@
+body{
+  background-image: url('./img/movies.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color:black;
+    background-color: #f5f5f5;
+    border-radius: 2rem;
+    box-shadow: 0 8px 8px rgba(184, 96, 96, 0.993);
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(247, 242, 242, 0.993);
+    margin: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2758f8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  button:hover{
+    background-color: #f5f5f5;
+    color: black;
+    border:2px solid #2758f8;
+    
+  }
+
+  button.remove:hover{
+    background-color: rgb(45, 126, 88);
+    color: #f5f5f5;
+    border: none;
+  }
+  
+  #results {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .movie {
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  
+  .movie img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .movie h2 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+  
+  .movie p {
+    margin: 5px 0;
+  }
+  
